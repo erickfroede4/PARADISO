@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "titulo": "Homem-Aranha",
+        "genero": "Ação",
+        "ano": 2002,
+        "nota": 5,
+        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/RbZQL5hXmydecu82UHw9ZGyytB.jpg"
+    },
+    {
+        "id": 2,
+        "titulo": "Click",
+        "genero": "Comédia",
+        "ano": 2006,
+        "nota": 4,
+        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/oL0k5JA53PyoHSZqKb3cNkhwBCE.jpg"
+    },
+    {
+        "id": 3,
+        "titulo": "O Fantástico Sr. Raposo",
+        "genero": "Animação",
+        "ano": 2009,
+        "nota": 5,
+        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/1Ey4LYUzTqzizPNjcBi20pU9joC.jpg"
+    },
+    {
+        "id": 4,
+        "titulo": "De Volta para o Futuro",
+        "genero": "Ficção Científica",
+        "ano": 1985,
+        "nota": 5,
+        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/i996T0lI1fGtFEowiH3V6eZthL0.jpg"
+    },
+    {
+        "id": 5,
+        "titulo": "Gênio Indomável",
+        "genero": "Drama",
+        "ano": 1997,
+        "nota": 5,
+        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/dTe3EpJGnfUeR5swLbWv61iRyFc.jpg"
+    },
+    {
+        "id": 6,
+        "titulo": "Scooby-Doo: O Filme",
+        "genero": "Comédia",
+        "ano": 2002,
+        "nota": 4,
+        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/Nu9v0wUacgq73ggOAKsz4ZtZ2K.jpg"
+    },
+    {
+        "id": 7,
+        "titulo": "Ponyo: Uma Amizade que Veio do Mar",
+        "genero": "Animação",
+        "ano": 2008,
+        "nota": 5,
+        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/cvpsmNWc8nyePJMbyMc9X5lLN6L.jpg"
+    },
+    {
+        "id": 8,
+        "titulo": "Lawrence da Arábia",
+        "genero": "Clássico / Aventura",
+        "ano": 1962,
+        "nota": 5,
+        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/r0xZR5ENEc8Pp2ULhkP4lgUWk8Y.jpg"
+    },
+    {
+        "id": 9,
+        "titulo": "WALL-E",
+        "genero": "Animação",
+        "ano": 2008,
+        "nota": 5,
+        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/qNiwJPVCO4cgiM8LVtxwPV2HxHS.jpg"
+    },
+    {
+        "id": 10,
+        "titulo": "Minha Mãe é uma Peça 2",
+        "genero": "Comédia",
+        "ano": 2016,
+        "nota": 5,
+        "poster": "https://www.themoviedb.org/t/p/w600_and_h900_face/eDApDWU6r9zxk9MZLc6rfnBb3vu.jpg"
+    },
+    {
+        "id": 11,
+        "titulo": "Batman - A Máscara do Fantasma",
+        "genero": "Animação",
+        "ano": 1993,
+        "nota": 5,
+        "poster": "https://upload.wikimedia.org/wikipedia/pt/e/ea/Batman_mask_of_the_phantasm_poster.jpg?utm_source=pt.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    }
+]

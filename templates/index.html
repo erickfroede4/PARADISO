@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Paradiso | Catálogo Cinematográfico</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Topo da Aplicação -->
+    <header class="navbar">
+        <div class="logo">PROJETO<span>PARADISO</span></div>
+        
+        <!-- Filtros por Nome e Gênero -->
+        <div class="filtros-container">
+            <input type="text" id="filtroNome" placeholder="🔍 Buscar por título...">
+            <select id="filtroGenero">
+                <option value="">Todos os Gêneros</option>
+                <option value="Ação">Ação</option>
+                <option value="Comédia">Comédia</option>
+                <option value="Animação">Animação</option>
+                <option value="Ficção Científica">Ficção Científica</option>
+                <option value="Drama">Drama</option>
+                <option value="Clássico / Aventura">Clássico / Aventura</option>
+            </select>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Adição de Novos Filmes -->
+        <section class="form-section">
+            <details>
+                <summary>+ Cadastrar Novo Filme no Acervo</summary>
+                <form id="filmeForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="titulo">Título da Obra *</label>
+                            <input type="text" id="titulo" placeholder="Ex: Cinema Paradiso">
+                            <small id="erro-titulo" class="msg-erro"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="genero">Gênero</label>
+                            <input type="text" id="genero" placeholder="Ex: Drama / Romance">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="ano">Ano</label>
+                            <input type="number" id="ano" placeholder="Ex: 1988">
+                        </div>
+                        <div class="form-group">
+                            <label for="nota">Nota (1 a 5)</label>
+                            <input type="number" id="nota" min="1" max="5" placeholder="Ex: 5">
+                        </div>
+                        <div class="form-group flex-2">
+                            <label for="poster">URL do Cartaz / Poster</label>
+                            <input type="url" id="poster" placeholder="https://link-da-imagem.jpg">
+                        </div>
+                    </div>
+
+                    <button type="submit" id="btnSalvar">Adicionar ao Acervo</button>
+                </form>
+            </details>
+        </section>
+
+        <!-- Galeria de Filmes -->
+        <section class="catalogo-section">
+            <h2>Sessão do Dia</h2>
+            <div id="listaFilmes" class="grid-posters"></div>
+        </section>
+    </main>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
